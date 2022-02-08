@@ -1,0 +1,14 @@
+{
+  "name": "gix-outages",
+  "version": "1.0.0",
+  "description": "Outages at GIX",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.16"
+  }
+}

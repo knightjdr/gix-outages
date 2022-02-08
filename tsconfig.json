@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true
+  },
+  "include": ["./index.ts"]
+}
