@@ -28,7 +28,7 @@ const outageReason = 'maintenance at our cloud provider';
 
 // Given a day, month, year and time (formatted as HH:MM), return the time in seconds since the epoch.
 // Both the day and month are indexed from 1. Time should be in 24 hour format.
-const getDateAsEST = (date: OutageDate) => {
+const getDateAsEST = (date: OutageDate): Date => {
   const [hour, minute] = date.time.split(':');
   return new Date(
     date.year,
